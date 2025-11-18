@@ -27,5 +27,10 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        id_var = findViewById(R.id.etx_id);
+        nome_var = findViewById(R.id.etx_nome);
+        documento_var = findViewById(R.id.etx_documento);
+        curso_var = findViewById(R.id.etx_curso);
     }
 }
